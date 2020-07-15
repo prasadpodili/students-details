@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.container{
+  width: 800px;
+  background: #ccc;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 8px 8px 4px rgb(32, 31, 31);
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headings {
+  display:flex;
+  justify-content: space-between;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headings th{
+  font-size: 20px;
+  padding: 30px 20px;
+  margin: auto;
+  text-transform: uppercase;
+  cursor: pointer;;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.data tr {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  box-sizing: border-box;
+}
+.data tr td{
+  padding: 10px 20px;
+  text-align: right;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+.delete{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 15px;
+}
+.delete button{
+  padding: 10px;
+  background: darkgrey;
+  transition: .3s ease;
+}
+.delete button:hover{
+  background: rgb(37, 37, 37);
+  color: rgb(124, 119, 119);
+}
+.data .select{
+  display: flex;
+  position: absolute;;
+  left:650px;
+  padding: 3px 15px;
+  margin: 2px;
+  transition: .4s ease;
+}
+.data .select:hover{
+  background: rgb(31, 27, 27);
+  color: #fff;
+}
+.alldetails{
+  width: 400px;
+  height: 120px;
+  margin: 10px;
+ 
+  border: .5px solid rgb(41, 40, 40);
+  border-radius: 3px;
+
+  box-shadow: 3px 3px 2px #000;
+  background: #fff;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

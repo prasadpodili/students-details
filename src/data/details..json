@@ -1,0 +1,84 @@
+{
+    "data" : [
+        {
+           "id" : 1,
+           "firstname" : "rohith",
+           "lastname" : "sharma",
+           "address" : "14-1,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" : "9876543210" ,
+           "GPA" : 8.9
+        },   
+        {
+            "id" : 2,
+            "firstname" :"kohli" ,
+           "lastname" : "virat",
+           "address" : "14-2,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" : "9876543211",
+           "GPA" : 8.9
+        },    
+        {
+            "id": 3,
+            "firstname" : "rahane",
+           "lastname" : "ajinkya",
+           "address" : "14-3,shop street,Puttur,Andhra Pradesh,517583" ,
+           "mobileno" :"9876543212" ,
+           "GPA" : 6.3
+        },
+        {
+            "id": 4,
+            "firstname" : "jadeja",
+           "lastname" : "ravindra",
+           "address" : "14-4,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" : "9876543213",
+           "GPA" : 7.8
+        },
+        {
+            "id": 5,
+            "firstname" : "raina",
+           "lastname" : "suresh",
+           "address" : "14-5,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" : "9876543214",
+           "GPA" : 6.9
+        },
+        {
+            "id": 6,
+            "firstname" : "dhoni",
+           "lastname" : "mahendra singh",
+           "address" : "14-6,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" : "9876543215",
+           "GPA" : 9.0
+        },
+        {
+            "id": 7,
+            "firstname" : "pandya",
+           "lastname" : "hardik",
+           "address" : "14-7,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" : "9876543216",
+           "GPA" : 4.2
+        },
+        {
+            "id": 8,
+            "firstname" : "rahul",
+           "lastname" : "lokesh",
+           "address" : "14-8,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" :"9876543217" ,
+           "GPA" : 1.9
+        },
+        {
+            "id": 9,
+            "firstname" : "bumrah",
+           "lastname" : "jasprit",
+           "address" : "14-9,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" :"9876543218" ,
+           "GPA" :3.4
+        },
+        {
+            "id": 10,
+            "firstname" : "prasad",
+           "lastname" : "podili",
+           "address" : "14-10,shop street,Puttur,Andhra Pradesh,517583",
+           "mobileno" : "9876543219",
+           "GPA" :3.7
+        }
+    ]
+}
